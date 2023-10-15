@@ -1,6 +1,6 @@
-# Nhóm
-# Đề tài: Game 2D
-# Mục đích 
+
+# Chủ đề: Game 2d màn hình ngang
+# Giới thiệu
 - Dự án nhằm tạo ra một tựa game 2D bắn súng màn hình ngang, lối chơi Hit and Run có sự tương đồng như game Contra và Metal Slug
 # Mục tiêu
 -Tạo ra 1 tựa game có dung lượng nhẹ, mang tính giải trí và không yêu cầu cao về mặt kĩ năng cũng như yêu cầu về hệ thống 
@@ -28,3 +28,10 @@ $\to$ Chú thích:
 - 😺**Quang**
 - 🤡**Thăng** 
 - 😘**Nhân**
+
+## Hướng dẫn tải về
+
+```bash
+git clone https://github.com/B4ch0-Production/Game2D.git
+cd projects
+```
