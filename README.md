@@ -1,5 +1,4 @@
-**<p style="text-align: center;">Bản cập nhật 0.1 15/10/2023</p>**
-
+<h1 style="text-align: center;">Bản cập nhật 0.1 15/10/2023</h1>
 # Những thứ được thêm vào
 - Thêm ngoại cảnh, nền
 - Thêm nhân vật
