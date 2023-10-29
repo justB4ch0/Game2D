@@ -24,6 +24,10 @@ $\to$ Chú thích:
 ```c
    Cột Trạng Thái biểu tượng hoàn thành (✅) hoặc không hoàn thành (❌) của công việc được giao.
 ```
+
+# Xây dựng nhân vật mario và demo nhân vật chuyển động khi mario nhỏ, mario lớn và mario chuyển trạng thái khi ăn hoa
+![](./mario_chay.gif)
+![](./cac_nhan_vat_co_trong_Game2D.jpg)
 # Thành viên    
 - 😺**Quang**
 - 🤡**Thăng** 
