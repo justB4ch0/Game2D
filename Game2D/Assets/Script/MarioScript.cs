@@ -8,6 +8,8 @@ public class MarioScript : MonoBehaviour
     private float TocDo=0; //toc do
     private bool DuoiDat=true;//kiem tra duoi dat
     public float NhayCao; //get toc do nhay nv
+    public float RoiXuong;
+    public float NhayThap;
     private bool ChuyenHuong=false;//kiemtrachuyenhuong
     private bool QuayPhai = true;//kiem tra nv quay huong nao
 
@@ -55,6 +57,32 @@ public class MarioScript : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.X)&&DuoiDat==true)
         {
             r2d.AddForce((Vector2.up) * NhayCao);
+            DuoiDat = false;
+        }
+        //
+        if (r2d.velocity.y < 0)
+        {
+            r2d.velocity += Vector2.up * Physics2D.gravity.y * (RoiXuong-1)*Time.deltaTime;
+        }
+        else if(r2d.velocity.y>0&&! Input.GetKey(KeyCode.X))
+        {
+            r2d.velocity += Vector2.up * Physics2D.gravity.y * (NhayThap - 1) * Time.deltaTime;
+
+        }
+
+    }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.tag=="NenDat")
+        {
+            DuoiDat=true;
+        }       
+    }
+    private void OnTriggerStay2D(Collider2D col)
+    {
+        if (col.tag == "NenDat")
+        {
+            DuoiDat = true;
         }
     }
 }
