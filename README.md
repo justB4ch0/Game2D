@@ -42,7 +42,6 @@ cd projects
 ## Kế hoạch trong tương lai
  Nhờ vào sự đóng góp của bạn!
  Chia sẻ với chúng tôi ý kiến của bạn để giúp hoàn thiện hơn ❤️❤️❤️❤️
-## Vài hình ảnh trong giai đoạn thử nghiệm
-![Inkling chacrater](https://i.imgur.com/eN58YRF.png "Inkling chacrater")
+
 
 
