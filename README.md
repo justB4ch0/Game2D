@@ -1,7 +1,7 @@
 
 # Sản phẩm: Game 2d màn hình ngang
 # Giới thiệu
-- Dự án nhằm tạo ra một tựa game 2D bắn súng màn hình ngang, lối chơi Hit and Run có sự tương đồng như game Contra và Metal Slug
+- Dự án nhằm tạo ra một tựa game 2D hình ngang, lối chơi đi cảnh
 # Mục tiêu
 -Tạo ra 1 tựa game có dung lượng nhẹ, mang tính giải trí và không yêu cầu cao về mặt kĩ năng cũng như yêu cầu về hệ thống 
 # Game được làm như thế nào
