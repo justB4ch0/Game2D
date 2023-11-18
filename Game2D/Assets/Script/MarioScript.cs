@@ -22,7 +22,9 @@ public class MarioScript : MonoBehaviour
     //Hiện thị cấp độ lớn của Mario
     public int CapDo = 0;
     public bool BienHinh = false;
-
+    // Vi tri mario chết
+    private Vector2 VitriChet;
+    private AudioSource AmThanh;
     // Start is called before the first frame update
     void Start()
     {
@@ -268,4 +270,22 @@ public class MarioScript : MonoBehaviour
     //    HoatHoa.SetLayerWeight(HoatHoa.("AnHoa"), 0;
     //    yield return new WaitForSeconds(DoTre);
     //}
+    public vold TooheThanh(string FileThanh)
+    {
+        Thanh.PlayOneShot(Resources.LoadcAudioClip>("Audio/" + FileAmThanh));
+    }
+
+    
+
+    public void MarioChet()
+    {
+        VitriChet = transform.localPosition;
+
+        GameObject MarioChet = (GameObject)Instantiate(Resources.Load("Prefabs/MarioChet"));
+
+        MarioChet.transform.localPosition = VitriChet;
+
+        Destroy(gameObject);
+
+    }
 }
